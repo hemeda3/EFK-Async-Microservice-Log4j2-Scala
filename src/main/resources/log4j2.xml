@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration monitorInterval="30" status="warn" strict="true">
+
+  <Properties>
+    <Property name="filename">logs/spring-boot-logging.log</Property>
+    <Property name="defaultpattern">logdate=(%d{ISO8601}) thread=(%thread)) level=(%level)
+      loggerclass=(%logger{36}) message=(%msg)%n
+    </Property>
+  </Properties>
+  <Filter level="trace" type="ThresholdFilter"/>
+
+  <Appenders>
+    <Appender name="STDOUT" type="Console">
+      <Layout pattern="${defaultpattern}" type="PatternLayout"/>
+    </Appender>
+    <Appender fileName="logs/spring-boot-logging.log" name="MyFile" type="File">
+      <JSONLayout compact="false" complete="true"/>
+
+    </Appender>
+    <Async name="Async">
+      <AppenderRef ref="MyFile"/>
+    </Async>
+  </Appenders>
+
+  <Loggers>
+    <Logger additivity="false" level="debug" name="com.ahmed">
+      <AppenderRef ref="STDOUT"/>
+      <AppenderRef ref="MyFile"/>
+    </Logger>
+  </Loggers>
+
+</Configuration>

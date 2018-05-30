@@ -138,7 +138,7 @@ task buildDocker(type: Docker, dependsOn: build) {
     }
 
 }
-task gatlingStatFlo(dependsOn: ':loadtest:loadTest')  {
+task gatlingRunStatflo(dependsOn: ':loadtest:loadTest')  {
 
 }
 

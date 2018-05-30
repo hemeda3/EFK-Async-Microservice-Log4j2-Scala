@@ -23,7 +23,8 @@ public class UserBusinessImp implements IUserBusiness {
 
   private final UserRepository userRepository;
 
-  @Autowired private ModelMapper modelMapper;
+  @Autowired
+  private ModelMapper modelMapper;
 
   @Autowired
   UserBusinessImp(final UserRepository userRepository, final ModelMapper modelMapper) {
@@ -52,9 +53,9 @@ public class UserBusinessImp implements IUserBusiness {
 
   @Override
   @Transactional
-  public UserDTO saveUser(UserDTO user) {
+  public User saveUser(UserDTO user) {
 
     User userSaved = userRepository.save(modelMapper.map(user, User.class));
-    return modelMapper.map(userSaved, UserDTO.class);
+    return userSaved;
   }
 }

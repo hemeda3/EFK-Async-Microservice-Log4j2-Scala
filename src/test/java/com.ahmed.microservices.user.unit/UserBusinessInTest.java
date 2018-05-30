@@ -8,6 +8,7 @@ import com.ahmed.UserApplication;
 import com.ahmed.business.IUserBusiness;
 import com.ahmed.business.UserBusinessImp;
 import com.ahmed.dto.UserDTO;
+import com.ahmed.entities.User;
 import com.ahmed.exceptions.InputValidationException;
 import java.util.Collections;
 import java.util.List;
@@ -33,12 +34,13 @@ public class UserBusinessInTest {
   public void saveUser() {
 
     UserDTO userTobeSaved = UserDTO.builder().name("John").role("foo").build();
+    User userSaved = User.builder().name("John").role("foo").build();
 
-    when(userBusiness.saveUser(userTobeSaved)).thenReturn(userTobeSaved);
-    UserDTO userDTOSaved = userBusiness.saveUser(userTobeSaved);
+    when(userBusiness.saveUser(userTobeSaved)).thenReturn(userSaved);
+    User userSavedTest = userBusiness.saveUser(userTobeSaved);
 
-    Assert.assertEquals("John", userDTOSaved.getName());
-    Assert.assertEquals("foo", userDTOSaved.getRole());
+    Assert.assertEquals("John", userSavedTest.getName());
+    Assert.assertEquals("foo", userSavedTest.getRole());
   }
 
   @Test

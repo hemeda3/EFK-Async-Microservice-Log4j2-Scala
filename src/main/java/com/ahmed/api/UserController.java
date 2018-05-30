@@ -2,6 +2,7 @@ package com.ahmed.api;
 
 import com.ahmed.business.IUserBusiness;
 import com.ahmed.dto.UserDTO;
+import com.ahmed.entities.User;
 import com.ahmed.helpers.ExtractUrl;
 import com.ahmed.helpers.UrlKeyValue;
 import java.util.List;
@@ -45,10 +46,9 @@ public class UserController {
 
   @PostMapping
   @ResponseStatus(HttpStatus.CREATED)
+  ResponseEntity<User> saveUser(@RequestBody UserDTO userDTO) {
 
-  ResponseEntity<UserDTO> saveUser(@RequestBody UserDTO userDTO) {
-
-    UserDTO savedUser = iUserBusiness.saveUser(userDTO);
-    return new ResponseEntity<>(savedUser, HttpStatus.OK);
+    User savedUser = iUserBusiness.saveUser(userDTO);
+    return new ResponseEntity<>(savedUser, HttpStatus.CREATED);
   }
 }

@@ -54,6 +54,7 @@
     <orderEntry type="library" name="Gradle: org.jodd:jodd-core:3.6.5" level="project" />
     <orderEntry type="library" name="Gradle: org.jodd:jodd-log:3.6.5" level="project" />
     <orderEntry type="library" name="Gradle: commons-pool:commons-pool:1.6" level="project" />
+    <orderEntry type="library" name="scala-sdk-2.12.6" level="application" />
   </component>
   <component name="TestModuleProperties" production-module="loadtest_main" />
 </module>

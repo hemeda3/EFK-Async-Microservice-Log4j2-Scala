@@ -1,6 +1,5 @@
 package com.ahmed.dto;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -17,7 +16,6 @@ public class UserDTO {
   /**
    * The id.
    */
-  @JsonIgnore
   public Long id;
 
   /**

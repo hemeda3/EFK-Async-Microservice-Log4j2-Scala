@@ -15,6 +15,7 @@ import com.ahmed.UserApplication;
 import com.ahmed.business.IUserBusiness;
 import com.ahmed.business.UserBusinessImp;
 import com.ahmed.dto.UserDTO;
+import com.ahmed.entities.User;
 import com.ahmed.enums.StatfloErrors;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.Collections;
@@ -63,11 +64,11 @@ public class UserControllerInTest {
 
   // @Test
   public void add_NewUSEREntry_ShouldAddUserEntryAndReturnAddedEntry() throws Exception {
-    UserDTO userDTO = UserDTO.builder().name("jodi").role("foo").build();
+    User user = User.builder().name("jodi").role("foo").build();
 
-    String dtoAsString = mapper.writeValueAsString(userDTO);
+    String dtoAsString = mapper.writeValueAsString(user);
 
-    when(userBusiness.saveUser(any(UserDTO.class))).thenReturn(userDTO);
+    when(userBusiness.saveUser(any(UserDTO.class))).thenReturn(user);
 
     mockMvc
         .perform(post("/users/").contentType(TestUtil.APPLICATION_JSON_UTF8).content(dtoAsString))

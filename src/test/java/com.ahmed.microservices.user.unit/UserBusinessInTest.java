@@ -9,7 +9,7 @@ import com.ahmed.business.IUserBusiness;
 import com.ahmed.business.UserBusinessImp;
 import com.ahmed.dto.UserDTO;
 import com.ahmed.exceptions.InputValidationException;
-import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import org.junit.Assert;
 import org.junit.Before;
@@ -48,9 +48,8 @@ public class UserBusinessInTest {
     final String USER_VALUE = "foo";
     final String QUERY_OPERATION = "=";
     UserDTO user1 = UserDTO.builder().name("John").role("foo").build();
-    List<UserDTO> userDTOS = new ArrayList<>();
-    userDTOS.add(user1);
-    when(userBusiness.findUser(USER_KEY, QUERY_OPERATION, USER_VALUE)).thenReturn(userDTOS);
+    when(userBusiness.findUser(USER_KEY, QUERY_OPERATION, USER_VALUE))
+        .thenReturn(Collections.singletonList(user1));
     List<UserDTO> userDTOList = userBusiness.findUser(USER_KEY, QUERY_OPERATION, USER_VALUE);
     Assert.assertEquals("John", userDTOList.get(0).getName());
     Assert.assertEquals("foo", userDTOList.get(0).getRole());

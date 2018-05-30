@@ -58,8 +58,7 @@ public class UserBusinessInTest {
   @Test(expected = InputValidationException.class)
   public void whenUserKeyIsEmptyThenThrowInputValidationException() {
 
-    when(userBusiness.findUser("", "", ""))
-        .thenThrow(InputValidationException.class);
+    when(userBusiness.findUser("", "", "")).thenThrow(InputValidationException.class);
     userBusiness.findUser(anyString(), anyString(), anyString());
   }
 }

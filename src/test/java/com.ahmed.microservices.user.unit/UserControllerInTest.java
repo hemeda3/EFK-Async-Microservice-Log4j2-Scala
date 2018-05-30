@@ -1,6 +1,5 @@
 package com.ahmed.microservices.user.unit;
 
-
 import static org.hamcrest.Matchers.is;
 import static org.mockito.Mockito.any;
 import static org.mockito.Mockito.anyString;
@@ -16,6 +15,7 @@ import com.ahmed.UserApplication;
 import com.ahmed.business.IUserBusiness;
 import com.ahmed.business.UserBusinessImp;
 import com.ahmed.dto.UserDTO;
+import com.ahmed.enums.StatfloErrors;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.Collections;
 import org.junit.Before;
@@ -34,8 +34,7 @@ import org.springframework.test.web.servlet.MockMvc;
 @AutoConfigureMockMvc
 public class UserControllerInTest {
 
-  @Autowired
-  private MockMvc mockMvc;
+  @Autowired private MockMvc mockMvc;
 
   private IUserBusiness userBusiness;
   private ObjectMapper mapper;
@@ -62,7 +61,7 @@ public class UserControllerInTest {
     verifyZeroInteractions(userBusiness);
   }
 
-  //@Test
+  // @Test
   public void add_NewUSEREntry_ShouldAddUserEntryAndReturnAddedEntry() throws Exception {
     UserDTO userDTO = UserDTO.builder().name("jodi").role("foo").build();
 
@@ -85,6 +84,7 @@ public class UserControllerInTest {
     mockMvc
         .perform(post("/users/").contentType(MediaType.APPLICATION_JSON_UTF8))
         .andExpect(content().contentType(TestUtil.APPLICATION_JSON_UTF8))
-        .andExpect(jsonPath("$.errorCode", is("INPUT-EMPTY-1001")));
+        .andExpect(jsonPath("$.errorCode", is(StatfloErrors.INPUT_VALIDATION.getCode())))
+        .andExpect(jsonPath("$.errorMessage", is(StatfloErrors.INPUT_VALIDATION.getDescription())));
   }
 }

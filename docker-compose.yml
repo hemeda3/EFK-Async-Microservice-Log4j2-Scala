@@ -1,39 +1,56 @@
-version: '2'
-
+version: '2.1'
 services:
-  app:
-    build: .
-    ports:
-      - "8080:8080"
-    links:
-      - logstash
-
-  elasticsearch:
-    build: elk/elasticsearch/
+ elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.2.4
     container_name: elasticsearch
-    ports:
-      - "9200:9200"
-      - "9300:9300"
+    hostname: elasticsearch
     environment:
-      ES_JAVA_OPTS: "-Xms1g -Xmx1g"
-
-  logstash:
-    build: elk/logstash/
-    container_name: logstash
-    command: -f /etc/logstash/conf.d/
+      - cluster.name=docker-cluster
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
     volumes:
-      - ./elk/logstash/config:/etc/logstash/conf.d
+      - esdata1:/usr/share/elasticsearch/data
     ports:
-      - "9999:9999"
-    links:
-      - elasticsearch
+      - 9200:9200
+    networks:
+      - elk
 
-  kibana:
-    build: elk/kibana/
+ kibana:
+    image: docker.elastic.co/kibana/kibana:6.2.4
+    environment:
+          ELASTICSEARCH_URL: http://elasticsearch:9200
     container_name: kibana
-    volumes:
-      - ./elk/kibana/config/:/opt/kibana/config/
+    hostname: kibana
     ports:
-      - "5601:5601"
-    links:
+           - 5601:5601
+    networks:
+           - elk
+    depends_on:
       - elasticsearch
+
+ user:
+    image: ahmed/basic-user-webservice2:latest
+    ports:
+    - 8080:8080
+    networks:
+       - elk
+    depends_on:
+       - elasticsearch
+    hostname: user
+    container_name: user
+    environment:
+    - SPRING_PROFILES_ACTIVE=development
+    - CONFIG_SERVER_URL=http://config:8888
+
+networks:
+  elk:
+    driver: bridge
+volumes:
+  esdata1:
+    driver: local
+  esdata2:
+    driver: local

@@ -2,7 +2,7 @@
 <Configuration monitorInterval="30" status="warn" strict="true">
 
   <Properties>
-    <Property name="filename">logs/spring-boot-logging.log</Property>
+    <Property name="filename"></Property>
     <Property name="defaultpattern">logdate=(%d{ISO8601}) thread=(%thread)) level=(%level)
       loggerclass=(%logger{36}) message=(%msg)%n
     </Property>
@@ -13,23 +13,25 @@
     <Appender name="STDOUT" type="Console">
       <Layout pattern="${defaultpattern}" type="PatternLayout"/>
     </Appender>
-    <Appender fileName="logs/spring-boot-logging.log" name="MyFile" type="File">
-      <JSONLayout compact="false" complete="true"/>
-
+    <Appender fileName="/home/ubuntu/app.log" name="File" type="File">
+      <Layout pattern="${defaultpattern}" type="PatternLayout"/>
     </Appender>
-    <Async name="Async">
-      <AppenderRef ref="MyFile"/>
-    </Async>
-
-
-
+    <Socket host="localhost" name="socket" port="9200">
+      <Layout pattern="${defaultpattern}" type="PatternLayout"/>
+    </Socket>
   </Appenders>
 
   <Loggers>
-    <Logger additivity="false" level="debug" name="com.ahmed">
+    <Logger additivity="false" level="info" name="com.anilallewar.microservices.user">
       <AppenderRef ref="STDOUT"/>
-      <AppenderRef ref="Async"/>
+      <AppenderRef ref="File"/>
+      <AppenderRef ref="socket"/>
     </Logger>
+    <Root level="warn">
+      <AppenderRef ref="STDOUT"/>
+      <AppenderRef ref="File"/>
+      <AppenderRef ref="socket"/>
+    </Root>
   </Loggers>
 
 </Configuration>

@@ -10,7 +10,7 @@ class FooSimulation extends Simulation {
     .exec(http("Mark").get("/foo"))
   setUp(
     scn.inject(
-      atOnceUsers(1)
+      atOnceUsers(1001)
     )
   ).protocols(httpProtocol)
 }

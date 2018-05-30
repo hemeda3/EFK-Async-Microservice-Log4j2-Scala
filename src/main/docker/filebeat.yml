@@ -1,6 +1,7 @@
 output.elasticsearch:
     enabled: true
     hosts: ["http://elasticsearch:9200"]
+
 filebeat.prospectors:
   - type: log
     enabled: true

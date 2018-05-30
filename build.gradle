@@ -9,6 +9,7 @@ apply plugin: 'application'
 apply plugin: 'docker'
 apply plugin: 'idea'
 apply plugin: 'findbugs'
+apply plugin: "jacoco"
 
 buildscript {
 	project.ext {
@@ -16,7 +17,11 @@ buildscript {
          jarName = 'basic-user-webservice'
          versionName = '0.1.1'
          gradleDockerVersion = '1.2'
-         lombokVersion: '1.16.16'
+         lombokVersion='1.16.16'
+         disruptorLog4jAsync='3.3.6'
+        flywayversion='5.0.7'
+        springModelMapper='1.0.0'
+         log4jOverslf4j='1.7.13'
 
     }
     repositories {
@@ -33,8 +38,6 @@ buildscript {
 task createWrapper(type: Wrapper) {
     gradleVersion = '3.5'
 }
-
-
 
 // Used by the Docker gradle plugin, group refers to the account under which the docker image is created
 group = 'ahmed'
@@ -63,8 +66,10 @@ configurations.all {
 configurations.all {
     exclude module: 'slf4j-log4j12'
 }
+
+
 dependencies {
-     compile "org.slf4j:log4j-over-slf4j:1.7.13"
+     compile "org.slf4j:log4j-over-slf4j:${log4jOverslf4j}"
 
     compile("org.springframework.boot:spring-boot-starter-web")    {
        exclude module : 'spring-boot-starter-logging'
@@ -74,7 +79,7 @@ dependencies {
       exclude module : 'spring-boot-starter-logging'
 
     }
-    compile('com.lmax:disruptor:3.3.6')
+    compile("com.lmax:disruptor:${disruptorLog4jAsync}")
 
     compile('org.springframework.boot:spring-boot-starter-log4j2')
 
@@ -86,10 +91,10 @@ dependencies {
 
 }
     // flyway for database version conrol
-    compile "org.flywaydb:flyway-core:5.0.7"
+    compile "org.flywaydb:flyway-core:${flywayversion}"
 
 
-     compileOnly "org.projectlombok:lombok:1.16.16"
+     compileOnly "org.projectlombok:lombok:${lombokVersion}"
      testCompile("junit:junit")
     testCompile("org.springframework.boot:spring-boot-starter-test")
 
@@ -135,6 +140,27 @@ task buildDocker(type: Docker, dependsOn: build) {
 }
 task gatlingStatFlo(dependsOn: ':loadtest:loadTest')  {
 
+}
+
+
+jacoco {
+    toolVersion = "0.8.1"
+}
+
+
+test {
+    jacoco {
+        append = false
+        destinationFile  file("$buildDir/jacoco/jacocoTest.exec")
+        classDumpFile   file("$buildDir/jacoco/classpathdumps")
+    }
+}
+jacocoTestReport {
+    reports {
+        xml.enabled false
+        html.enabled true
+        csv.enabled false
+    }
 }
 
 

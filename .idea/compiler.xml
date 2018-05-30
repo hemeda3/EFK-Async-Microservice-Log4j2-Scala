@@ -5,6 +5,8 @@
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jacoco_main" target="1.8" />
+      <module name="jacoco_test" target="1.8" />
       <module name="loadtest_main" target="1.8" />
       <module name="loadtest_test" target="1.8" />
       <module name="new-user-service_main" target="1.8" />

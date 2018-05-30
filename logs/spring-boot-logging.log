@@ -943,3 +943,1675 @@
 }
 
 ]
+{
+  "timeMillis" : 1527637319899,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Starting UserBusinessInTest on TORWL400091 with PID 21236 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637319906,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637319906,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637327916,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Started UserBusinessInTest in 8.649 seconds (JVM running for 11.721)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637328603,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Starting UserControllerInTest on TORWL400091 with PID 21236 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637328604,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637328604,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637331650,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Started UserControllerInTest in 3.118 seconds (JVM running for 15.455)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637331780,
+  "thread" : "Test worker",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=INPUT-EMPTY-1001, errorMessage=Required request body is missing: org.springframework.http.ResponseEntity<com.ahmed.dto.UserDTO> com.ahmed.api.UserController.saveUser(com.ahmed.dto.UserDTO))",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+
+]
+{
+  "timeMillis" : 1527637702677,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Starting UserBusinessInTest on TORWL400091 with PID 16064 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637702684,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637702685,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637709306,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Started UserBusinessInTest in 7.148 seconds (JVM running for 9.889)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637709896,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Starting UserControllerInTest on TORWL400091 with PID 16064 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637709897,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637709897,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637711233,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Started UserControllerInTest in 1.421 seconds (JVM running for 11.815)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637711349,
+  "thread" : "Test worker",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=INPUT-EMPTY-1001, errorMessage=Required request body is missing: org.springframework.http.ResponseEntity<com.ahmed.dto.UserDTO> com.ahmed.api.UserController.saveUser(com.ahmed.dto.UserDTO))",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+
+]
+{
+  "timeMillis" : 1527637814299,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Starting UserBusinessInTest on TORWL400091 with PID 16748 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637814360,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637814360,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637843759,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Started UserBusinessInTest in 32.122 seconds (JVM running for 45.008)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637846030,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Starting UserControllerInTest on TORWL400091 with PID 16748 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637846031,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637846031,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637847930,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Started UserControllerInTest in 1.981 seconds (JVM running for 49.178)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527637848594,
+  "thread" : "Test worker",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=INPUT-EMPTY-1001, errorMessage=Required request body is missing: org.springframework.http.ResponseEntity<com.ahmed.dto.UserDTO> com.ahmed.api.UserController.saveUser(com.ahmed.dto.UserDTO))",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+
+]
+{
+  "timeMillis" : 1527638083250,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Starting UserBusinessInTest on TORWL400091 with PID 21900 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 12,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638083255,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 12,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638083256,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 12,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638089275,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Started UserBusinessInTest in 6.4 seconds (JVM running for 8.035)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 12,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638089541,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Starting UserControllerInTest on TORWL400091 with PID 21900 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 12,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638089541,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 12,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638089542,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 12,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638090915,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Started UserControllerInTest in 1.431 seconds (JVM running for 9.675)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 12,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638090992,
+  "thread" : "Test worker",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=INPUT-EMPTY-1001, errorMessage=Required request body is missing: org.springframework.http.ResponseEntity<com.ahmed.dto.UserDTO> com.ahmed.api.UserController.saveUser(com.ahmed.dto.UserDTO))",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 12,
+  "threadPriority" : 5
+}
+
+]
+{
+  "timeMillis" : 1527638494547,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Starting UserBusinessInTest on TORWL400091 with PID 17188 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638494603,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638494604,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638526686,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Started UserBusinessInTest in 35.058 seconds (JVM running for 47.677)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638529069,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Starting UserControllerInTest on TORWL400091 with PID 17188 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638529070,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638529070,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638530940,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Started UserControllerInTest in 1.947 seconds (JVM running for 51.93)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638531683,
+  "thread" : "Test worker",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=INPUT-EMPTY-1001, errorMessage=Required request body is missing: org.springframework.http.ResponseEntity<com.ahmed.dto.UserDTO> com.ahmed.api.UserController.saveUser(com.ahmed.dto.UserDTO))",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+
+]
+{
+  "timeMillis" : 1527638804928,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Starting UserBusinessInTest on TORWL400091 with PID 17476 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638804975,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638804976,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638829340,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Started UserBusinessInTest in 26.455 seconds (JVM running for 36.907)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638831594,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Starting UserControllerInTest on TORWL400091 with PID 17476 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638831594,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638831595,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638834034,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Started UserControllerInTest in 2.528 seconds (JVM running for 41.601)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527638834845,
+  "thread" : "Test worker",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=INPUT-EMPTY-1001, errorMessage=Required request body is missing: org.springframework.http.ResponseEntity<com.ahmed.dto.UserDTO> com.ahmed.api.UserController.saveUser(com.ahmed.dto.UserDTO))",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+
+]
+{
+  "timeMillis" : 1527639014023,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Starting UserBusinessInTest on TORWL400091 with PID 20808 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639014065,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639014065,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639037870,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Started UserBusinessInTest in 25.931 seconds (JVM running for 35.826)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639039685,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Starting UserControllerInTest on TORWL400091 with PID 20808 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639039686,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639039686,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639041318,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Started UserControllerInTest in 1.699 seconds (JVM running for 39.274)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639041901,
+  "thread" : "Test worker",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=INPUT-EMPTY-1001, errorMessage=Required request body is missing: org.springframework.http.ResponseEntity<com.ahmed.dto.UserDTO> com.ahmed.api.UserController.saveUser(com.ahmed.dto.UserDTO))",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+
+]
+{
+  "timeMillis" : 1527639190555,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Starting UserBusinessInTest on TORWL400091 with PID 3156 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639190602,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639190603,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639214063,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Started UserBusinessInTest in 25.589 seconds (JVM running for 35.355)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639215986,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Starting UserControllerInTest on TORWL400091 with PID 3156 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639215987,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639215987,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639217608,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Started UserControllerInTest in 1.694 seconds (JVM running for 38.9)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639218152,
+  "thread" : "Test worker",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=INPUT-EMPTY-1001, errorMessage=Required request body is missing: org.springframework.http.ResponseEntity<com.ahmed.dto.UserDTO> com.ahmed.api.UserController.saveUser(com.ahmed.dto.UserDTO))",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+
+]
+{
+  "timeMillis" : 1527639588133,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Starting UserBusinessInTest on TORWL400091 with PID 12012 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639588201,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639588201,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639636225,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Started UserBusinessInTest in 51.456 seconds (JVM running for 63.521)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639640912,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Starting UserControllerInTest on TORWL400091 with PID 12012 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639640912,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639640912,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639643017,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Started UserControllerInTest in 2.212 seconds (JVM running for 70.312)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639643978,
+  "thread" : "Test worker",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=INPUT-EMPTY-1001, errorMessage=Required request body is missing: org.springframework.http.ResponseEntity<com.ahmed.dto.UserDTO> com.ahmed.api.UserController.saveUser(com.ahmed.dto.UserDTO))",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+
+]
+{
+  "timeMillis" : 1527639802421,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Starting UserBusinessInTest on TORWL400091 with PID 2604 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639802493,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639802494,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639842062,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Started UserBusinessInTest in 43.194 seconds (JVM running for 59.369)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639844916,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Starting UserControllerInTest on TORWL400091 with PID 2604 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639844916,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639844917,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639846713,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Started UserControllerInTest in 1.875 seconds (JVM running for 64.019)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527639847627,
+  "thread" : "Test worker",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=INPUT-EMPTY-1001, errorMessage=Required request body is missing: org.springframework.http.ResponseEntity<com.ahmed.dto.UserDTO> com.ahmed.api.UserController.saveUser(com.ahmed.dto.UserDTO))",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+
+]
+{
+  "timeMillis" : 1527640104566,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Starting UserBusinessInTest on TORWL400091 with PID 21120 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640104626,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640104627,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640148891,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserBusinessInTest",
+  "message" : "Started UserBusinessInTest in 47.993 seconds (JVM running for 63.996)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640151889,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Starting UserControllerInTest on TORWL400091 with PID 21120 (started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640151889,
+  "thread" : "Test worker",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640151890,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640153782,
+  "thread" : "Test worker",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.microservices.user.unit.UserControllerInTest",
+  "message" : "Started UserControllerInTest in 1.972 seconds (JVM running for 68.888)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640155033,
+  "thread" : "Test worker",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=INPUT-EMPTY-1001, errorMessage=Required request body is missing: org.springframework.http.ResponseEntity<com.ahmed.dto.UserDTO> com.ahmed.api.UserController.saveUser(com.ahmed.dto.UserDTO))",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 13,
+  "threadPriority" : 5
+}
+
+]
+{
+  "timeMillis" : 1527640631568,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Starting UserApplication on TORWL400091 with PID 13308 (C:\\Users\\ahmohammed\\Documents\\new-user-service\\build\\classes\\main started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640631568,
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640631568,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640637056,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Started UserApplication in 5.858 seconds (JVM running for 6.895)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640703595,
+  "thread" : "http-nio-8080-exec-4",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=GENRIC-INTERNAL-ERROR-01, errorMessage=Generic error happened )could not execute statement; SQL [n/a]; constraint [\"NAMEUNIQUECONSTRAINT_INDEX_2 ON PUBLIC.USER(NAME) VALUES ('john', 1)\"; SQL statement:\ninsert into user (id, name, role, version) values (null, ?, ?, ?) [23505-194]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 31,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1527640891605,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Starting UserApplication on TORWL400091 with PID 14332 (C:\\Users\\ahmohammed\\Documents\\new-user-service\\build\\classes\\main started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640891605,
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640891605,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640896314,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Started UserApplication in 5.048 seconds (JVM running for 6.003)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640904428,
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=GENRIC-INTERNAL-ERROR-01, errorMessage=Generic error happened )could not execute statement; SQL [n/a]; constraint [\"NAMEUNIQUECONSTRAINT_INDEX_2 ON PUBLIC.USER(NAME) VALUES ('john', 1)\"; SQL statement:\ninsert into user (id, name, role, version) values (null, ?, ?, ?) [23505-194]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 28,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1527640942124,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Starting UserApplication on TORWL400091 with PID 5360 (C:\\Users\\ahmohammed\\Documents\\new-user-service\\build\\classes\\main started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640942124,
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640942124,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640947103,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Started UserApplication in 5.344 seconds (JVM running for 6.327)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527640952408,
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=GENRIC-INTERNAL-ERROR-01, errorMessage=Generic error happened )could not execute statement; SQL [n/a]; constraint [\"NAMEUNIQUECONSTRAINT_INDEX_2 ON PUBLIC.USER(NAME) VALUES ('john', 1)\"; SQL statement:\ninsert into user (id, name, role, version) values (null, ?, ?, ?) [23505-194]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 28,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1527641342433,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Starting UserApplication on TORWL400091 with PID 21096 (C:\\Users\\ahmohammed\\Documents\\new-user-service\\build\\classes\\main started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527641342433,
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527641342433,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527641347582,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Started UserApplication in 5.534 seconds (JVM running for 6.574)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527641367480,
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=GENRIC-INTERNAL-ERROR-01, errorMessage=Generic error happened )could not execute statement; SQL [n/a]; constraint [\"NAMEUNIQUECONSTRAINT_INDEX_2 ON PUBLIC.USER(NAME) VALUES ('john', 1)\"; SQL statement:\ninsert into user (id, name, role, version) values (null, ?, ?, ?) [23505-194]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 29,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1527641653489,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Starting UserApplication on TORWL400091 with PID 14784 (C:\\Users\\ahmohammed\\Documents\\new-user-service\\build\\classes\\main started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527641653489,
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527641653489,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527641658595,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Started UserApplication in 5.526 seconds (JVM running for 6.63)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1527641732018,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Starting UserApplication on TORWL400091 with PID 20424 (C:\\Users\\ahmohammed\\Documents\\new-user-service\\build\\classes\\main started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527641732018,
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527641732018,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527641736696,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Started UserApplication in 5.041 seconds (JVM running for 5.984)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527641740269,
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=USER-1002, errorMessage=User name already exist)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 28,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1527642748177,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Starting UserApplication on TORWL400091 with PID 22896 (C:\\Users\\ahmohammed\\Documents\\new-user-service\\build\\classes\\main started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527642748177,
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527642748177,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527642753509,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Started UserApplication in 5.699 seconds (JVM running for 6.88)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527642753952,
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=could not execute statement; SQL [n/a]; constraint [\"NAMEUNIQUECONSTRAINT_INDEX_2 ON PUBLIC.USER(NAME) VALUES ('john', 1)\"; SQL statement:\ninsert into user (id, name, role, version) values (null, ?, ?, ?) [23505-194]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement, errorCode=10, errorMessage=This user already exists.)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 29,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527642829419,
+  "thread" : "http-nio-8080-exec-4",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=10, errorMessage=Generic error)null",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 31,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1527642872271,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Starting UserApplication on TORWL400091 with PID 9064 (C:\\Users\\ahmohammed\\Documents\\new-user-service\\build\\classes\\main started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527642872271,
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527642872272,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527642876986,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Started UserApplication in 5.045 seconds (JVM running for 6.007)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527642883891,
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=10, errorMessage=Generic error)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 28,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527642885273,
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=null, errorCode=10, errorMessage=Generic error)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 29,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527642888855,
+  "thread" : "http-nio-8080-exec-3",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=could not execute statement; SQL [n/a]; constraint [\"NAMEUNIQUECONSTRAINT_INDEX_2 ON PUBLIC.USER(NAME) VALUES ('john', 1)\"; SQL statement:\ninsert into user (id, name, role, version) values (null, ?, ?, ?) [23505-194]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement, errorCode=10, errorMessage=This user already exists.)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 30,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527642896560,
+  "thread" : "http-nio-8080-exec-4",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=This parameter null is not valid {empty or null }, errorCode=11, errorMessage=Input data validation.)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 31,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1527642985553,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Starting UserApplication on TORWL400091 with PID 13092 (C:\\Users\\ahmohammed\\Documents\\new-user-service\\build\\classes\\main started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527642985553,
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527642985554,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527642990773,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Started UserApplication in 5.652 seconds (JVM running for 6.706)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527642991023,
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=Some input parameters are missing or not valid {empty or null }, errorCode=11, errorMessage=Input data validation.)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 28,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527643016590,
+  "thread" : "http-nio-8080-exec-3",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=For input string: \"-\"; nested exception is java.lang.NumberFormatException: For input string: \"-\", errorCode=10, errorMessage=Generic error)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 30,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527643037785,
+  "thread" : "http-nio-8080-exec-5",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=could not execute statement; SQL [n/a]; constraint [\"NAMEUNIQUECONSTRAINT_INDEX_2 ON PUBLIC.USER(NAME) VALUES ('john', 1)\"; SQL statement:\ninsert into user (id, name, role, version) values (null, ?, ?, ?) [23505-194]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement, errorCode=10, errorMessage=This user already exists.)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 32,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527643051271,
+  "thread" : "http-nio-8080-exec-7",
+  "level" : "ERROR",
+  "loggerName" : "com.ahmed.exceptions.ExceptionHandlingController",
+  "message" : "ExceptionResponse(exception=could not execute statement; SQL [n/a]; constraint [\"NAMEUNIQUECONSTRAINT_INDEX_2 ON PUBLIC.USER(NAME) VALUES ('john1', 4)\"; SQL statement:\ninsert into user (id, name, role, version) values (null, ?, ?, ?) [23505-194]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement, errorCode=10, errorMessage=This user already exists.)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 34,
+  "threadPriority" : 5
+}

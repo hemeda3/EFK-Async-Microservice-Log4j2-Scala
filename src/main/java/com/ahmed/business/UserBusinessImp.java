@@ -23,8 +23,7 @@ public class UserBusinessImp implements IUserBusiness {
 
   private final UserRepository userRepository;
 
-  @Autowired
-  private ModelMapper modelMapper;
+  @Autowired private ModelMapper modelMapper;
 
   @Autowired
   UserBusinessImp(final UserRepository userRepository, final ModelMapper modelMapper) {

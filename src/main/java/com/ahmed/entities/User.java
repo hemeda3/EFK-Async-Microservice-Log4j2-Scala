@@ -13,12 +13,15 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.extern.java.Log;
 
 @Data
 @Builder
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
+@Log
+@lombok.Generated
 public class User {
 
   /**

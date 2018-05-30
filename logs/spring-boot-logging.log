@@ -2615,3 +2615,47 @@
   "threadId" : 34,
   "threadPriority" : 5
 }
+{
+  "timeMillis" : 1527643118138,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Starting UserApplication on TORWL400091 with PID 20420 (C:\\Users\\ahmohammed\\Documents\\new-user-service\\build\\classes\\main started by ahmohammed in C:\\Users\\ahmohammed\\Documents\\new-user-service)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527643118138,
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527643118138,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "No active profile set, falling back to default profiles: default",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+, {
+  "timeMillis" : 1527643123447,
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.ahmed.UserApplication",
+  "message" : "Started UserApplication in 5.675 seconds (JVM running for 6.696)",
+  "endOfBatch" : true,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}

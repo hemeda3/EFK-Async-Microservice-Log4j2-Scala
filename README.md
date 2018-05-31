@@ -19,14 +19,14 @@
   ### B- Sub project Scala Load test (loadtest folder under root folder)
 *Load testing using Gatling framework for 2000 users over 140 seconds
 
-##Technologies:-
+## Technologies:-
 1- Docker gradle
 2- Filebeat configuration to upload spring logs from docker container to Elastic search using elastic REST API
 3- Log4j Async appender
 4- ElasticSearch + Kibana
 5- Mockito
 
-##Code Anaylisis and coverage tool:
+## Code Anaylisis and coverage tool:
 1- findbugs
 2- Jacoco
 

@@ -39,10 +39,10 @@ class UserSimulation extends Simulation {
       .check(status.is(201))).pause(1)
   setUp(
     saveUserScinario.inject(
-      rampUsers(1000) over (50 seconds)
+      rampUsers(1000) over (70 seconds)
     ),
     findUserScenario.inject(
-      rampUsers(1000) over (50 seconds)
+      rampUsers(1000) over (70 seconds)
     )
 
   ).protocols(httpProtocol)

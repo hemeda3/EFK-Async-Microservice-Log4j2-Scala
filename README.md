@@ -33,6 +33,9 @@ Overview
 * Log4j Async appender
 * ElasticSearch + Kibana
 * Mockito
+* Flyway for datbase upgrade version management 
+* Jackson JSON
+* Google code style.xml for code styling and format
 
 ### Code Analysis and Test coverage tool:
 * findbugs

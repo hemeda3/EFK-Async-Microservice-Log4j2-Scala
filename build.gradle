@@ -39,7 +39,6 @@ task createWrapper(type: Wrapper) {
     gradleVersion = '3.5'
 }
 
-// Used by the Docker gradle plugin, group refers to the account under which the docker image is created
 group = 'hemeda2'
 mainClassName = 'com.ahmed.UserApplication'
 sourceCompatibility = 1.8
@@ -121,17 +120,13 @@ docker {
 task buildDocker(type: Docker, dependsOn: build) {
     push = false
     applicationName = jar.baseName
-   // tagVersion = "latest"
-   // tagVersion = "latest"
     dockerfile = file('src/main/docker/Dockerfile')
     doFirst {
-        // Copy the built fat jar to the Docker plugin staging directory
-        copy {
+         copy {
             from jar
             into stageDir
         }
-        // Copy the run.sh file to the Docker plugin staging directory
-        copy {
+         copy {
             from 'src/main/docker/filebeat.yml'
             from 'src/main/docker/start.sh'
             into stageDir

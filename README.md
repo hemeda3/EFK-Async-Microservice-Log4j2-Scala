@@ -1,20 +1,25 @@
 #Overview
+##This is multimodel gradel project user service API using Async log4j2 with (ElasticSearch + Kibana + Filebeat), includes:
 
-This application provides the **user** related functionality and serves as one component. It defines the REST endpoints that are used to provide user functionality.
+ ###  A- Root project user service
+1- Spring boot user service (
+2- Unit Test
+3- Docker File
+4- Docker Compose
 
-##Pre-requisites
+  ### B- Sub project Scala Load test (loadtest folder under root folder)
+Load testing using Gatling framework for 2000 users over 140 seconds
 
-### Projects that need to be started before
-* [config server](/../../blob/master/config-server/README.md) - For pulling the configuration information
-* [webservice-registry](/../../blob/master/webservice-registry/README.md) - For starting the Eureka server since the authorization server also is a micro-service that needs to be registered with Eureka server.    
+##Technologies:-
+1- Docker gradle
+2- Filebeat configuration to upload spring logs from docker container to Elastic search using elastic REST API
+3- Log4j Async appender
+4- ElasticSearch + Kibana
+5- Mockito
 
-### Running the application
-* Build the application by running the `./gradlew clean build` gradle command at the "user-webservice" project root folder	on the terminal.
-* If you want to run the application as jar file, then run `java -jar build/libs/basic-user-webservice-0.0.1.jar` command at the terminal.
-
-## External Configuration
-The project derives it's external configuration from the [config server](/../../blob/master/config-server/README.md) service. Note that we have defined the `spring.cloud.config.uri` in the `bootstrap.yml` file and that tells the application where to pick up the external confiurations. In our case, the URL points to the running [config server](/../../blob/master/config-server/README.md) server. You also need to have the `spring-cloud-starter-config` dependency in the classpath so that the application can comsume the config server.
-
-A Spring Cloud application operates by creating a "bootstrap" context, which is a parent context for the main application. This bootstrap context loads properties from external sources (the config-server) and decrypts the properties if required. 
-
-The bootstrap context for external configuration is located by convention at `bootstrap.yml` whereas the internal configuration is located by convention at `application.yml`. Note that you can also have `.properties` file instead of `.yml` files.
+## Notes:
+this file "dos2unix.exe" used in case the docker-compose up faild to run/build user service with exception :"folder not found",
+ in Windows OS.Since Windows OS editors(most of them) will auto/convert files ending to CRLF from LF, but it SHOULD be LF
+for more information in this issue please refer to
+1-https://help.github.com/articles/dealing-with-line-endings/
+2-https://forums.docker.com/t/standard-init-linux-go-175-exec-user-process-caused-no-such-file/20025

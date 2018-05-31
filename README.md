@@ -36,10 +36,13 @@ Overview
 * Flyway for datbase upgrade version management 
 * Jackson JSON
 * Google code style.xml for code styling and format
+* Lombok builder
+
 
 ### Code Analysis and Test coverage tool:
 * findbugs
 * Jacoco
+* Sonar
 
 ### Notes:
 * this file "dos2unix.exe" used in case the docker-compose up faild to run/build user service with exception :"folder not found",

@@ -5,11 +5,18 @@ Overview
 ### gradle tasks: ./gradlew or gradlew.bat 
 * clean
 * build
-* buildDocker
+* buildDocker   
+   * this will generate local image tagged hemeda2/basic-user-webservice:latest
 * test
 * jacocoTestReport
-* gatlingRunStatflo
+* gatlingRunStatflo  
+    * Note : this should be run After`docker-compose up` and will target the user service container which will be running in port 8080
 
+* find test reports in path `$ROOT Folder`
+            `build/reports/tests//test/html/index.html`
+            `build/reports/jacoco/test/html/index.html`
+            `build/reports/findbugs/test/html/index.html`
+* for Gatling Scala project, it will generate report in this path inside root folder `loadtest/build/gatling-results/***` 
 
 ### Root project user service
 * Spring boot user service (
@@ -27,7 +34,7 @@ Overview
 * ElasticSearch + Kibana
 * Mockito
 
-### Code Anaylisis and coverage tool:
+### Code Analysis and Test coverage tool:
 * findbugs
 * Jacoco
 

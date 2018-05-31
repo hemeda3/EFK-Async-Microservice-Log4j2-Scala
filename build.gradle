@@ -119,8 +119,9 @@ docker {
     baseImage = 'frolvlad/alpine-oraclejdk8:slim'
 }
 task buildDocker(type: Docker, dependsOn: build) {
-    push = true
+    push = false
     applicationName = jar.baseName
+   // tagVersion = "latest"
    // tagVersion = "latest"
     dockerfile = file('src/main/docker/Dockerfile')
     doFirst {

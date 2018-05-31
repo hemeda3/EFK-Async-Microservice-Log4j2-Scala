@@ -1,7 +1,7 @@
 #Overview
 ## This is multimodel gradel project user service API using Async log4j2 with (ElasticSearch + Kibana + Filebeat), includes:
 
-### gradle tasks:
+# gradle tasks:
 * clean
 * build
 * buildDocker
@@ -10,16 +10,16 @@
 * gatlingRunStatflo
 
 
- ###  A- Root project user service
+ # Root project user service
 * Spring boot user service (
 * Unit Test
 * Docker File
 * Docker Compose
 
-  ### B- Sub project Scala Load test (loadtest folder under root folder)
-*Load testing using Gatling framework for 2000 users over 140 seconds
+# Sub project Scala Load test (loadtest folder under root folder)
+* Load testing using Gatling framework for 2000 users over 140 seconds
 
-##Technologies:-
+## Technologies:-
 * Docker gradle
 * Filebeat configuration to upload spring logs from docker container to Elastic search using elastic REST API
 * Log4j Async appender

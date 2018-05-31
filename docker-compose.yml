@@ -33,7 +33,7 @@ services:
       - elasticsearch
 
  user:
-    image: ahmed/basic-user-webservice:latest
+    image: hemeda2/basic-user-webservice:latest
     ports:
     - 8080:8080
     networks:

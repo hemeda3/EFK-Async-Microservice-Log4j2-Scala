@@ -40,7 +40,7 @@ task createWrapper(type: Wrapper) {
 }
 
 // Used by the Docker gradle plugin, group refers to the account under which the docker image is created
-group = 'ahmed'
+group = 'hemeda2'
 mainClassName = 'com.ahmed.UserApplication'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8

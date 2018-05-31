@@ -2,7 +2,7 @@ Overview
 
 ## This is a multimodel gradel project for user service API using Async log4j2 with (ElasticSearch + Kibana + Filebeat) built over spring-boot boilerplate
 
-### gradle tasks:
+### gradle tasks: ./gradlew or gradlew.bat 
 * clean
 * build
 * buildDocker
@@ -33,7 +33,8 @@ Overview
 
 ### Notes:
 * this file "dos2unix.exe" used in case the docker-compose up faild to run/build user service with exception :"folder not found",
- in Windows OS.Since Windows OS editors(most of them) will auto/convert files ending to CRLF from LF, but it SHOULD be LF
+ in Windows OS. Since Windows OS editors(most of them) will auto/convert files ending to CRLF from LF, but it SHOULD be LF in our case, becuase we use *.sh files inside docker to download install filebeat inside docker container and deploy jar file.
+ 
 * for more information in this issue please refer to
 * https://help.github.com/articles/dealing-with-line-endings/
 * https://forums.docker.com/t/standard-init-linux-go-17*exec-user-process-caused-no-such-file/20025
